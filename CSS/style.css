@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    padding: 6px;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: æ;
+    padding: 0 15px 0 0;
+
+}
+
+.header__icons {
+    
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.main__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+.main__search {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 999px;
+    padding: 10px 20px;
+    height: 45px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 582px;
+}
+
+.search__buttons :hover {
+    box-shadow: 0 0 0.5em #dadce0;
+    cursor: pointer;
+}
+.main__search-buscar {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 500px;
+}
+
+.search__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.search__buttons button {
+    background-color: #f8f9fa;
+    outline: none;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+.search__keyboard {
+    padding-right: 0.5rem;
+}
+
+.material-icons {
+    color:#979797;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f8f9fa;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.footer__location {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #dadce0;
+    margin-left: 1rem;
+    height: 45px;
+    padding-top: 1rem;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    height: 45px;
+}
+
+.footer__links a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #70757a;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__links-mobile {
+        flex-direction: column;
+    }
+}
